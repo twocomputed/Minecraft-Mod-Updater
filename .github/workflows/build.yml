@@ -6,7 +6,7 @@ jobs:
     strategy:
       matrix:
         minecraft: [ 1.20.4 ]
-        loader: [ fabric, forge ]
+        loader: [ fabric ]
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
